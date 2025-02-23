@@ -2,7 +2,7 @@
 
 A modern web application to help VIT students calculate, track, and visualize their academic performance through GPA calculations and semester management.
 
-![Application Demo](./assets/demo_image.png)
+![Application Demo](assets/demo_image.png)
 
 ## ✨ Features
 
@@ -17,56 +17,56 @@ A modern web application to help VIT students calculate, track, and visualize th
 ## 🛠️ Tech Stack
 
 **Frontend:**  
-React · TypeScript · Vite · Tailwind CSS  
+- React · TypeScript · Vite · Tailwind CSS  
 **Backend:**  
-Supabase (PostgreSQL) · Supabase Auth  
+- Supabase (PostgreSQL) · Supabase Auth  
 **Visualization:**  
-Recharts · Lucide Icons  
+- Recharts · Lucide Icons  
 **Utilities:**  
-jsPDF · html2canvas  
+- jsPDF · html2canvas  
 
 ## 🚀 Live Demo
 
 [Visit Live Site](https://your-deployment-url.com)  
-*(Add your hosted application link here)*
 
-![Features Overview](./assets/features-collage.png)
 
 ## 💻 Local Development Setup
 
 1. **Clone Repository**
+```bash
 git clone https://github.com/YOUR-USERNAME/vit-gpa-calculator.git
-cd vit-gpa-calculator
+cd GradeUp-VIT
+```
 
-text
 
 2. **Install Dependencies**
+```bash
 npm install
-
-text
+```
 
 3. **Environment Setup**
 - Create `.env` file:
+```bash
 cp .env.example .env
+```
 
-text
 - Add Supabase credentials:
+```bash
 VITE_SUPABASE_URL=your_project_url
 VITE_SUPABASE_ANON_KEY=your_anon_key
-
-text
+```
 
 4. **Start Development Server**
+```bash
 npm run dev
+```
 
-text
 Visit `http://localhost:5173`
 
 ## 📱 How to Use
 
 ### 1️⃣ Account Setup
 - Register with email/password
-- Verify email via Supabase magic link
 - Login to access dashboard
 
 ### 2️⃣ Semester Management
@@ -75,7 +75,7 @@ Visit `http://localhost:5173`
 3. Add courses with:
    - Course code
    - Credits (1-4)
-   - Grade (S/A/B+/B/C+/C/D/E/F)
+   - Grade (S/A/B/C/D/E/F)
 4. Save to auto-calculate GPA
 
 ### 3️⃣ Performance Tracking
@@ -89,7 +89,6 @@ Visit `http://localhost:5173`
 3. Wait for PDF generation
 4. Download/share PDF
 
-![Usage Demo](./assets/usage-demo.gif)
 
 ## 🔒 Security Features
 
@@ -102,17 +101,20 @@ Visit `http://localhost:5173`
 
 1. Fork repository
 2. Create feature branch:
+```bash
 git checkout -b feature/your-feature
+```
 
-text
 3. Commit changes:
+```bash
 git commit -m "Add: New feature"
+```
 
-text
 4. Push to branch:
+```bash
 git push origin feature/your-feature
+```
 
-text
 5. Open Pull Request
 
 ## 📜 License
@@ -121,8 +123,8 @@ MIT License - See [LICENSE](LICENSE) for details
 
 ## 👨💻 Author
 
-**Your Name**  
+**Vinit Shedekar**  
 [GitHub Profile](https://github.com/vinitshedekar)  
-[Project Repository](https://github.com/YOUR-USERNAME/vit-gpa-calculator)
+[Project Repository](https://github.com/vinitshedekar/GradeUp-VIT)
 
 ---
