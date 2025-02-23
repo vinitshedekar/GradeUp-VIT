@@ -2,7 +2,7 @@
 
 A modern web application to help VIT students calculate, track, and visualize their academic performance through GPA calculations and semester management.
 
-![Application Demo](assets/demo_image.png)
+![Application Demo](./assests/demo_image.png)
 
 ## ✨ Features
 
@@ -17,13 +17,13 @@ A modern web application to help VIT students calculate, track, and visualize th
 ## 🛠️ Tech Stack
 
 **Frontend:**  
-- React · TypeScript · Vite · Tailwind CSS  
+React · TypeScript · Vite · Tailwind CSS  
 **Backend:**  
-- Supabase (PostgreSQL) · Supabase Auth  
+Supabase (PostgreSQL) · Supabase Auth  
 **Visualization:**  
-- Recharts · Lucide Icons  
+Recharts · Lucide Icons  
 **Utilities:**  
-- jsPDF · html2canvas  
+jsPDF · html2canvas  
 
 ## 🚀 Live Demo
 
