@@ -27,7 +27,7 @@ jsPDF · html2canvas
 
 ## 🚀 Live Demo
 
-[Visit Live Site](https://your-deployment-url.com)  
+[Visit Live Site](https://grade-up-vit.vercel.app/)  
 
 
 ## 💻 Local Development Setup
